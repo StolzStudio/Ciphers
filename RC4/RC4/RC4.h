@@ -5,7 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 
-#define BIT_POSSIBLE_VALUES 256
+#define BYTE_POSSIBLE_COUNT 256
 
 #endif
 
