@@ -1,13 +1,7 @@
+//  Created by Nicholas Goncharov.
 //
-//  main.c
-//  RC4
-//
-//  Created by Nicholas Goncharov on 16.06.15.
-//  Copyright (c) 2015 Nicholas Goncharov. All rights reserved.
-//
-//  Code realizate RC4 encoding and decoding
+//  Code realizate encoding and decoding RC4 algorithm 
 
-#include <stdio.h>
 #include "RC4.h"
 
 FILE *in_file, *out_file;

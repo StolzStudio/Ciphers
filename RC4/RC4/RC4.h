@@ -3,10 +3,13 @@
 #define __RC4__RC4__
 
 #include <stdio.h>
+#include <string.h>
+
+#define BIT_POSSIBLE_VALUES 256
 
 #endif
 
-#include <string.h>
+
 
 typedef unsigned char byte;
 

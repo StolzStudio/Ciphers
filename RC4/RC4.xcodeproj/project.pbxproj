@@ -24,14 +24,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E041B97B1B5B6E850055C2A8 /* input.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = input.txt; path = build/Debug/input.txt; sourceTree = "<group>"; };
+		E041B97C1B5B6E9B0055C2A8 /* code.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = code.txt; path = build/Debug/code.txt; sourceTree = "<group>"; };
+		E041B97D1B5B6EB10055C2A8 /* decode.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = decode.txt; path = build/Debug/decode.txt; sourceTree = "<group>"; };
 		E0CC8E6C1B3050F400C1B8F4 /* RC4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = RC4; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CC8E6F1B3050F400C1B8F4 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		E0CC8E761B30512900C1B8F4 /* RC4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RC4.c; sourceTree = "<group>"; };
 		E0CC8E771B30512900C1B8F4 /* RC4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RC4.h; sourceTree = "<group>"; };
-		E0CC8E7A1B30577300C1B8F4 /* text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = text.txt; path = build/Debug/text.txt; sourceTree = "<group>"; };
-		E0CC8E7B1B30577900C1B8F4 /* encoded_text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = encoded_text.txt; path = build/Debug/encoded_text.txt; sourceTree = "<group>"; };
-		E0CC8E7D1B311AA500C1B8F4 /* decoded_text.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = decoded_text.txt; path = build/Debug/decoded_text.txt; sourceTree = "<group>"; };
-		E0CC8E801B31308900C1B8F4 /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = image.jpg; path = build/Debug/image.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +49,9 @@
 			children = (
 				E0CC8E6E1B3050F400C1B8F4 /* RC4 */,
 				E0CC8E6D1B3050F400C1B8F4 /* Products */,
-				E0CC8E7A1B30577300C1B8F4 /* text.txt */,
-				E0CC8E7B1B30577900C1B8F4 /* encoded_text.txt */,
-				E0CC8E7D1B311AA500C1B8F4 /* decoded_text.txt */,
-				E0CC8E801B31308900C1B8F4 /* image.jpg */,
+				E041B97B1B5B6E850055C2A8 /* input.txt */,
+				E041B97C1B5B6E9B0055C2A8 /* code.txt */,
+				E041B97D1B5B6EB10055C2A8 /* decode.txt */,
 			);
 			sourceTree = "<group>";
 		};
