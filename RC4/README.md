@@ -11,10 +11,11 @@
     2. Two 8-bit index-pointers ( "i" and "j" ).
     
   The permutation is intialized with a variable length key, using the key-scheduling algorithm ( KSA ).
+  Once this has been completed, the stream of bits is generated using the pseudo-random generation algorithm (PRGA).
   
 #In my program:
   
     "rc4_init" function realizes a KSA.
     
-    "rc4_give_byte" function realizes a PRGA ( pseudo-random generation algorithm )
+    "rc4_give_byte" function realizes a PRGA.
 
