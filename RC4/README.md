@@ -13,6 +13,14 @@
   The permutation is initialized with a variable length key, using the key-scheduling algorithm ( KSA ).
   Once this has been completed, the stream of bits is generated using the pseudo-random generation algorithm (PRGA).
   
+  Encryption Algorithm:
+  
+    1. Read a key;
+    2. KSA;
+    3. Text xor with PRGA stream of bits.
+  
+  Decryption algorithm works as well as Encryption Algorithm.
+    
 #Security
   
   Unlike a modern stream cipher, RC4 does not take a separate nonce alongside the key. This means that if a single long-term key is to be used to securely encrypt multiple streams, the protocol must specify how to combine the nonce and the long-term key to generate the stream key for RC4. One approach to addressing this is to generate a "fresh" RC4 key by hashing a long-term key with a nonce.
