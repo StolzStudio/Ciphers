@@ -5,7 +5,10 @@
 #include <stdio.h>
 #include <string.h>
 
+#ifndef BYTE_POSSIBLE_COUNT
 #define BYTE_POSSIBLE_COUNT 256
+
+#endif
 
 #endif
 
