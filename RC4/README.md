@@ -1,6 +1,6 @@
 #RC4
 
-  RC4 (Rivest cipher, another name - Ron's code, also known as ARC4 or ARCFOUR) - it's the most widely used stream cipher. It's   used in most popular Internet protocols such as TLS. Algorithm was designed by Ron Rivest of RSA Security ( American computer   and network security company ) in 1987.
+  RC4 (Rivest cipher, another name - Ron's code, also known as ARC4 or ARCFOUR) - it's the most widely used stream cipher. It   uses in most popular Internet protocols such as TLS. Algorithm was designed by Ron Rivest of RSA Security ( American computer   and network security company ) in 1987.
   
 #Description
 
