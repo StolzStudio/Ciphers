@@ -10,7 +10,7 @@
     
     2. Two 8-bit index-pointers ( "i" and "j" ).
     
-  The permutation is intialized with a variable length key, using the key-scheduling algorithm ( KSA ).
+  The permutation is initialized with a variable length key, using the key-scheduling algorithm ( KSA ).
   Once this has been completed, the stream of bits is generated using the pseudo-random generation algorithm (PRGA).
   
 #Security
